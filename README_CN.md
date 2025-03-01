@@ -9,15 +9,15 @@
 
 [![Member project of .NET Core Community](https://img.shields.io/badge/member%20project%20of-NCC-9e20c9.svg)](https://github.com/dotnetcore)
 [![package workflow](https://github.com/dotnetcore/AgileConfig/actions/workflows/release-xxx.yml/badge.svg)](https://github.com/dotnetcore/AgileConfig/actions/workflows/release-xxx.yml)
-![GitHub stars](https://img.shields.io/github/stars/kklldog/AgileConfig)
-![Commit Date](https://img.shields.io/github/last-commit/kklldog/AgileConfig/master.svg?logo=github&logoColor=green&label=commit)
+![GitHub stars](https://img.shields.io/github/stars/dotnetcore/AgileConfig)
+![Commit Date](https://img.shields.io/github/last-commit/dotnetcore/AgileConfig/master.svg?logo=github&logoColor=green&label=commit)
 ![Nuget](https://img.shields.io/nuget/v/agileconfig.client?label=agileconfig.client)
 ![Nuget](https://img.shields.io/nuget/dt/agileconfig.client?label=client%20download)
 ![Docker image](https://img.shields.io/docker/v/kklldog/agile_config?label=docker%20image)
-![GitHub license](https://img.shields.io/github/license/kklldog/AgileConfig)
+![GitHub license](https://img.shields.io/github/license/dotnetcore/AgileConfig)
 ![build workflow](https://github.com/dotnetcore/AgileConfig/actions/workflows/master-ci.yml/badge.svg)
     
-# [English](https://github.com/kklldog/AgileConfig/blob/master/README_EN.md) | [中文看这里](https://github.com/kklldog/AgileConfig/blob/master/README.md)
+# [English](https://github.com/dotnetcore/AgileConfig/blob/master/README_EN.md) | [中文看这里](https://github.com/dotnetcore/AgileConfig/blob/master/README.md)
     
 这是一个基于.net core开发的轻量级配置中心。说起配置中心很容易让人跟微服务联系起来，如果你选择微服务架构，那么几乎逃不了需要一个配置中心。事实上我这里并不是要蹭微服务的热度。这个世界上有很多分布式程序但它并不是微服务。比如有很多传统的SOA的应用他们分布式部署，但并不是完整的微服务架构。这些程序由于分散在多个服务器上所以更改配置很困难。又或者某些程序即使不是分布式部署的，但是他们采用了容器化部署，他们修改配置同样很费劲。所以我开发AgileConfig并不是为了什么微服务，我更多的是为了那些分布式、容器化部署的应用能够更加简单的读取、修改配置。    
 AgileConfig秉承轻量化的特点，部署简单、配置简单、使用简单、学习简单，它只提取了必要的一些功能，并没有像Apollo那样复杂且庞大。但是它的功能也已经足够你替换webconfig，appsettings.json这些文件了。如果你不想用微服务全家桶，不想为了部署一个配置中心而需要看N篇教程跟几台服务器那么你可以试试AgileConfig  ：）   
@@ -44,7 +44,7 @@ JAVA 客户端项目：[AgileConfig_JClient](https://github.com/kklldog/agilecon
 [教程 - 如何使用AgileConfig.Client读取配置](https://www.cnblogs.com/kklldog/p/how-to-use-agileconfigclient.html)    
 [教程- 如何使用服务注册与发现](https://www.cnblogs.com/kklldog/p/agileconfig-160.html)   
 [教程 - 如何开启 SSO](https://www.cnblogs.com/kklldog/p/agileconfig-170.html)   
-💥[常见问题，必看！！！](https://github.com/kklldog/AgileConfig/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%EF%BC%8C%E5%BF%85%E7%9C%8B%EF%BC%81%EF%BC%81%EF%BC%81)  
+💥[常见问题，必看！！！](https://github.com/dotnetcore/AgileConfig/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%EF%BC%8C%E5%BF%85%E7%9C%8B%EF%BC%81%EF%BC%81%EF%BC%81)  
 [关于多环境的部署说明](https://github.com/dotnetcore/AgileConfig/wiki/%E5%85%B3%E4%BA%8E-1.5-%E7%89%88%E6%9C%AC%E6%94%AF%E6%8C%81%E5%A4%9A%E7%8E%AF%E5%A2%83%E7%9A%84%E8%AF%B4%E6%98%8E)   
 [如何对接 OpenTelemetry 查看 log，trace，metric](https://mp.weixin.qq.com/s/QoagvZrCby1jI6g3XzZUAg)
     
@@ -53,10 +53,10 @@ JAVA 客户端项目：[AgileConfig_JClient](https://github.com/kklldog/agilecon
 🌷 基于 Blazor 实现的管理界面：[AgileConfigBlazorUI](https://github.com/EzrealJ/AgileConfigBlazorUI)   
    
 Restful API:   
-[✈️ restful api](https://github.com/kklldog/AgileConfig/wiki/Restful-API)
+[✈️ restful api](https://github.com/dotnetcore/AgileConfig/wiki/Restful-API)
    
 ## ChangeLog
-[📝 Changelog](https://github.com/kklldog/AgileConfig/blob/master/CHANGELOG.md)   
+[📝 Changelog](https://github.com/dotnetcore/AgileConfig/blob/master/CHANGELOG.md)   
    
 ## 联系作者
 [📧 联系](#联系我)
